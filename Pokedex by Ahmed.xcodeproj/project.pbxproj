@@ -13,6 +13,7 @@
 		E74D986F1CEF09EA0014BA5C /* Pokedex_by_Ahmed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E74D986D1CEF09EA0014BA5C /* Pokedex_by_Ahmed.xcdatamodeld */; };
 		E74D98711CEF09EA0014BA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74D98701CEF09EA0014BA5C /* Assets.xcassets */; };
 		E74D98741CEF09EA0014BA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74D98721CEF09EA0014BA5C /* LaunchScreen.storyboard */; };
+		E7D8DA401CEF1029003FE458 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E7D8DA3F1CEF1029003FE458 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E74D98701CEF09EA0014BA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E74D98731CEF09EA0014BA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E74D98751CEF09EA0014BA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8DA3F1CEF1029003FE458 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E74D98651CEF09EA0014BA5C /* Pokedex by Ahmed */ = {
 			isa = PBXGroup;
 			children = (
+				E7D8DA3F1CEF1029003FE458 /* pokemon.csv */,
 				E74D98661CEF09EA0014BA5C /* AppDelegate.swift */,
 				E74D98681CEF09EA0014BA5C /* ViewController.swift */,
 				E74D986A1CEF09EA0014BA5C /* Main.storyboard */,
@@ -99,7 +102,7 @@
 				TargetAttributes = {
 					E74D98621CEF09EA0014BA5C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = ZCB6GZJ49X;
+						DevelopmentTeam = 9MT4EUS42Y;
 					};
 				};
 			};
@@ -128,6 +131,7 @@
 			files = (
 				E74D98741CEF09EA0014BA5C /* LaunchScreen.storyboard in Resources */,
 				E74D98711CEF09EA0014BA5C /* Assets.xcassets in Resources */,
+				E7D8DA401CEF1029003FE458 /* pokemon.csv in Resources */,
 				E74D986C1CEF09EA0014BA5C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,10 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pokedex by Ahmed/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zaima.Pokedex-by-Ahmed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -267,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Pokedex by Ahmed/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Zaima.Pokedex-by-Ahmed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -293,6 +303,7 @@
 				E74D987A1CEF09EA0014BA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
